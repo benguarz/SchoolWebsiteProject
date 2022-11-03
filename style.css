@@ -1,0 +1,131 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#default_theme
+{
+    background-color: #d2d2d2;
+}
+  
+#christmas_theme {
+   background-color:#730417;
+  }
+  
+#ocean_theme{
+    background-color:#3d9cbf ;
+}
+
+#fall_theme{
+    background-color:#f37021 ;
+}
+
+#easter_theme {
+    background-color:#1f7069 ;
+}
+
+#summer_theme{
+    background-color:#efb680 ;
+}
+
+#spring_theme {
+    background-color: #c386f1;
+}
+
+
+a {
+    text-decoration: none;
+    color: red;
+
+}
+
+p {
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    margin: 10;
+}
+
+#container {
+    background-color: white;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.images
+{
+    width: 100%;
+}
+
+#content {
+    padding: 10px;
+}
+
+.selected {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding:0%;
+}
+
+
+
+#main {
+    width: 600px;
+    float: right;
+    padding-bottom: 10%;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.firstnames{
+    font-weight: bold;
+}
+
+#loginText{
+    font-size: small;
+    padding-bottom: 0%;
+    font-weight: bold;
+}
+
+#abovelogintext{
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 0%;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+

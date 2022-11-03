@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <title>My website</title>
+    <script src ="Javascript.js"> </script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body id="default_theme">
+    <section id="top">
+        <h1></h1> 
+     </section>
+    <div id="container">
+        <div id="header">
+            <center><img src="banner.jpg" width="100%"></center>
+            
+
+        </div>
+
+        <div id="content">
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="selected"href="About.html">About</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <br><br>
+                    <p id="abovelogintext">Log In Here:</p>
+                    <form id="">
+                        <p id="loginText">Username:</p>
+                        <input id="username">
+                        <p id="loginText">Password:</p>
+                        <input id="password">
+                        <button type="button" onclick="logIn()">Log In</button>
+                    </form>
+                    <form action="#">
+                        <p id="loginText">Who's logging in?</p>
+                        <select name="languages" id="lang">
+                          <option value="Parent">Parent</option>
+                          <option value="Student">Student</option>
+                          <option value="Staff/Faculty">Staff/Faculty</option>
+                        </select>
+                  </form>
+                </ul>
+            </div>
+
+            <div id="main">
+                
+                <img class="images" src="About Banner.jpg">
+                
+                <h1>About Us</h1>
+                <br>
+
+                <p>BOCA Academy is a leading film, television, and online media school offering undergraduate, postgraduate, and short courses across various craft areas. The School has campuses in London within the famous Ealing Studios, in Berlin at BUFA Studios, and in Leeds at Prime Studios.</p>
+                
+            
+                <p>BOCA Academy London's Full-Time 20-Week Certificate courses in Post Production and Digital Animation & VFX are delivered at Garden Studios, an innovative and sustainably focused film studio specifically designed to support the latest production technologies, situated five miles from the Ealing Studios campus. BOCA Academy students are taught by award-winning professionals with numerous industry awards and nominations. On our courses, you learn by doing. Participating in workshops, working within the industry, attending Masterclasses, and turning your knowledge into practical experience.</p>
+
+                
+                <p>BOCA Academy is the first film school in the UK to have an employment support team, BOCA Academy Futures, which connects students to opportunities within the screen industries.</p>
+
+                <h4>The School is assessed and recognised by leading bodies such as CILECT, QAA and Creative Skillset.</h4>
+            </div>
+        </div>
+        <div id="footer">
+            Copyright &copy; BOCA Academy 2006, Website Concept Developed by: Ben Enrick G. Guarin
+        </div>
+        <div id="footer">
+            <a href="#top">Back To Top</a>
+            
+            <div class ="default_theme">
+                <p>Click the options below to change theme: </p>
+                
+                <u><a href="javascript:onclick=default_theme(this.form)">Default</a></u>
+                <u><a href="javascript:onclick=christmas_theme(this.form)">Christmas</a></u>
+                <u><a href="javascript:onclick=ocean_theme(this.form)">Ocean</a></u>
+                <u><a href="javascript:onclick=fall_theme(this.form)">Fall</a></u>
+                <u><a href="javascript:onclick=easter_theme(this.form)">Easter</a></u>
+                <u><a href="javascript:onclick=summer_theme(this.form)">Summer</a></u>
+                <u><a href="javascript:onclick=spring_theme(this.form)">Spring</a></u>
+                </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

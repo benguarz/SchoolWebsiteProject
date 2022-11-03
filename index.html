@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <title>My website</title>
+    <script src ="Javascript.js"> </script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+</head>
+
+<body id="default_theme">
+    <section id="top">
+       <h1></h1> 
+    </section>
+    <div id="container">
+        <div id="header">
+            <center><img src="banner.jpg" width="100%"></center>
+            
+
+        </div>
+
+        <div id="content">
+            <div id="nav">
+                <ul>
+                    <li><a class="selected" href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <br><br>
+                    <p id="abovelogintext">Log In Here:</p>
+                    <form id="">
+                        <p id="loginText">Username:</p>
+                        <input id="username">
+                        <p id="loginText">Password:</p>
+                        <input id="password">
+                        <button type="button" onclick="logIn()">Log In</button>
+                    </form>
+                    <form action="#">
+                        <p id="loginText">Who's logging in?</p>
+                        <select name="languages" id="lang">
+                          <option value="Parent">Parent</option>
+                          <option value="Student">Student</option>
+                          <option value="Staff/Faculty">Staff/Faculty</option>
+                        </select>
+                  </form>
+
+                </ul>
+
+
+            </div>
+
+            <div id="main">
+                
+                <img class="images" src="Admissions now Open.jpg">
+                
+                <h2>Enrolment for SY 2006-2007 is Now Open!</h2>
+
+                <p>With a history spanning over fifty years, BOCA Academy sits at the heart of Arts University Bournemouth, setting the standard for turning creativity into careers. By reflecting the collaborative nature of the film industry, where different disciplines come together to create amazing work, they've created an environment where students produce award-winning films and go on to become some of the industry's biggest names.</p>
+
+                <p>Many film schools can offer the opportunity to specialise and form production teams but AUB forges collaborations like no other. BFS productions don't just contain the work of Film Production, Visual Effects and Animation students. </p>
+
+                <p>With Costume and Performance Design, Makeup for Media and Performance, and a whole host of other creative courses on the same campus, a full complement of the creative industries makes for a truly unique filmmaking experience.</p>
+
+                <br><br>
+
+                <img class="images" src="questions banner.jpg">
+
+                <h2>Have A Question?</h2>
+
+                <p>Have questions about the Enrollment? Want to know our fees and scholarships? Planning to take graduate school?</p>
+                    
+                <p>Contact us at: <u><a href="mailto: admissions@boca.com?subject=Inquiries">admissions@boca.com</a></u></p>
+
+            </div>
+        </div>
+        <div id="footer">
+            Copyright &copy; BOCA Academy 2006, Website Concept Developed by: Ben Enrick G. Guarin
+        
+        </div>
+        <div id="footer">
+            <a href="#top">Back To Top</a>
+            
+            <div class ="default_theme">
+            <p class="firstnames">Click the options below to change theme: </p>
+
+            <u><a href="javascript:onclick=default_theme(this.form)">Default</a></u>
+            <u><a href="javascript:onclick=christmas_theme(this.form)">Christmas</a></u>
+            <u><a href="javascript:onclick=ocean_theme(this.form)">Ocean</a></u>
+            <u><a href="javascript:onclick=fall_theme(this.form)">Fall</a></u>
+            <u><a href="javascript:onclick=easter_theme(this.form)">Easter</a></u>
+            <u><a href="javascript:onclick=summer_theme(this.form)">Summer</a></u>
+            <u><a href="javascript:onclick=spring_theme(this.form)">Spring</a></u>
+            </div>
+        </div>
+           
+    </div>
+        
+
+
+    </div>
+</body>
+
+</html>

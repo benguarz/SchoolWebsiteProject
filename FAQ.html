@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <title>My website</title>
+    <script src ="Javascript.js"> </script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body id="default_theme">
+    <section id="top">
+        <h1></h1> 
+     </section>
+    <div id="container">
+        <div id="header">
+            <center><img src="banner.jpg" width="100%"></center>
+            
+
+        </div>
+
+        <div id="content">
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a class="selected" href="FAQ.html">FAQ</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <br><br>
+                    <p id="abovelogintext">Log In Here:</p>
+                    <form id="">
+                        <p id="loginText">Username:</p>
+                        <input id="username">
+                        <p id="loginText">Password:</p>
+                        <input id="password">
+                        <button type="button" onclick="logIn()">Log In</button>
+                    </form>
+                    <form action="#">
+                        <p id="loginText">Who's logging in?</p>
+                        <select name="languages" id="lang">
+                          <option value="Parent">Parent</option>
+                          <option value="Student">Student</option>
+                          <option value="Staff/Faculty">Staff/Faculty</option>
+                        </select>
+                  </form>
+                </ul>
+            </div>
+
+            <div id="main">
+                
+                <img class="images" src="faq banner.jpg">
+                
+                <h1>Frequently Asked Questions</h1>
+
+                <h4>What distinguishes "graduate" from "undergraduate" degrees?</h4>
+                <p>Following high school, undergraduate programs might result in a bachelor's degree (four years) or an associate's degree (two years). Following a bachelor's degree, graduate programs can lead to a master's or doctoral degree.</p>
+                
+                <h4>What is online learning?</h4>
+                <p>When a student and an instructor are located in different locations, distance education is used. Learning can take place through the mail, phone, internet, or other channels. </p>
+
+                <h4>What steps are involved in applying for a transfer?</h4>
+                <p>You must meet the prerequisites for freshmen applicants as well as any extra requirements set forth by the transfer institution.</p>
+            </div>
+        </div>
+        <div id="footer">
+            Copyright &copy; BOCA Academy 2006, Website Concept Developed by: Ben Enrick G. Guarin
+        </div>
+        <div id="footer">
+            <a href="#top">Back To Top</a>
+            
+            <div class ="default_theme">
+                <p>Click the options below to change theme: </p>
+                
+                <u><a href="javascript:onclick=default_theme(this.form)">Default</a></u>
+                <u><a href="javascript:onclick=christmas_theme(this.form)">Christmas</a></u>
+                <u><a href="javascript:onclick=ocean_theme(this.form)">Ocean</a></u>
+                <u><a href="javascript:onclick=fall_theme(this.form)">Fall</a></u>
+                <u><a href="javascript:onclick=easter_theme(this.form)">Easter</a></u>
+                <u><a href="javascript:onclick=summer_theme(this.form)">Summer</a></u>
+                <u><a href="javascript:onclick=spring_theme(this.form)">Spring</a></u>
+                </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
